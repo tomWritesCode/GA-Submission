@@ -1,0 +1,39 @@
+/*************** GLOBAL PAGE STYLINING ***************/
+*{
+  box-sizing: border-box;
+}
+html{
+  font-size: 10px;
+}
+body{
+  margin:0;
+  hyphens: none;
+}
+.container{
+  width: 100%;
+  max-width: 1300px;
+  margin:0 auto;
+}
+/*************** GLOBAL PAGE STYLINING ***************/
+
+.titleBanner{
+  height: auto;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  margin: 30px auto 0;
+  border-radius: 10px;
+  font-size: 2.2rem;
+  color: ghostwhite;
+  line-height: 3rem;
+  text-shadow: 2px 2px 10px #09203f;
+}
+
+@media (max-width:770px) {
+   .titleBanner{
+    margin: 0 auto;
+    font-size: 2rem;
+    line-height: 2.2rem;
+    padding: 5px;
+  }
+}
